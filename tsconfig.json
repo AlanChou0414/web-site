@@ -50,11 +50,7 @@
     }
   },
   "include": [
-    "src",
-    "src/types/.keep",
-    "src/services/.keep",
-    "src/hooks/.keep",
-    "src/enum/.keep"
+    "src"
   ],
   "references": [
     {

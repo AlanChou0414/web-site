@@ -1,6 +1,10 @@
+import { Container } from "@chakra-ui/react"
+
 const PageMain = () => {
   return (
-    <div>HOME Page</div>
+    <Container>
+      <div>HOME Page</div>
+    </Container>
   )
 }
 
