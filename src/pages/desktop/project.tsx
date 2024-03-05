@@ -3,7 +3,7 @@ import { NavigationBar } from "@desktopComponents/layout"
 
 const DesktopProject = () => {
   return (
-    <Container>
+    <Container maxW='container.xl'>
       <NavigationBar />
     </Container>
   )

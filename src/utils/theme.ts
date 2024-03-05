@@ -1,4 +1,4 @@
-import { ThemeComponentProps, defineStyle, defineStyleConfig, extendTheme } from "@chakra-ui/react";
+import { ThemeComponentProps, extendTheme } from "@chakra-ui/react";
 
 export const theme = extendTheme({
   config: {
@@ -17,18 +17,18 @@ export const theme = extendTheme({
       }
     })
   },
-  components: {
-    Container: defineStyleConfig({
-      sizes: {
-        md: defineStyle({
-          maxW: 'container.xl',
-        })
-      },
-      defaultProps: {
-        size: 'md'
-      }
-    }),
-  },
+  // components: {
+  //   Container: defineStyleConfig({
+  //     sizes: {
+  //       md: defineStyle({
+  //         maxW: 'container.xl',
+  //       })
+  //     },
+  //     defaultProps: {
+  //       size: 'md'
+  //     }
+  //   }),
+  // },
   semanticTokens: {
     colors: {
       error: 'red.500',
