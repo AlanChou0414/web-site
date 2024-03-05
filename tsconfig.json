@@ -23,8 +23,11 @@
     "noFallthroughCasesInSwitch": true,
     "baseUrl": "src",
     "paths": {
-      "@components/*": [
-        "components/*"
+      "@desktopComponents/*": [
+        "components/desktop/*"
+      ],
+      "@mobileComponents/*": [
+        "components/mobile/*"
       ],
       "@assets*": [
         "assets/*"
@@ -34,6 +37,12 @@
       ],
       "@pages/*": [
         "pages/*"
+      ],
+      "@desktopPages/*": [
+        "pages/desktop/*"
+      ],
+      "@mobilePages/*": [
+        "pages/mobile/*"
       ],
       "@routes/*": [
         "routes/*"

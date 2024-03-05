@@ -1,8 +1,9 @@
 import { MoonIcon, SunIcon } from '@chakra-ui/icons';
-import { Box, Center, useColorMode } from "@chakra-ui/react";
+import { Box, Center } from "@chakra-ui/react";
+import { useThemeHook } from '@utils/common';
 
 export const NavigationBar = () => {
-  const { colorMode, toggleColorMode } = useColorMode();
+  const { colorMode, toggleColorMode } = useThemeHook();
 
   return (
     <Box display='flex' alignItems='center' justifyContent='space-evenly'
