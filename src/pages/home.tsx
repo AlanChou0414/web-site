@@ -1,9 +1,11 @@
 import { Container } from "@chakra-ui/react"
+import { NavigationBar } from "@components/layout"
 
 const PageMain = () => {
   return (
     <Container>
-      <div>HOME Page</div>
+      {/* <div>HOME Page</div> */}
+      <NavigationBar />
     </Container>
   )
 }
