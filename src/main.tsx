@@ -1,4 +1,5 @@
 import { ColorModeScript, theme } from '@chakra-ui/react';
+import 'animate.css';
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App.tsx';
