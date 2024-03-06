@@ -10,14 +10,14 @@ import MobileResume from '@pages/mobile/resume';
 import { createBrowserRouter } from "react-router-dom";
 
 export const router = createBrowserRouter([
-  { path: '/desktop/', element: <DesktopProject /> },
-  { path: '/desktop/about', element: <DesktopAbout /> },
-  { path: '/desktop/contact', element: <DesktopContact /> },
-  { path: '/desktop/resume', element: <DesktopResume /> },
-  { path: '/mobile/', element: <MobileProject /> },
-  { path: '/mobile/about', element: <MobileAbout /> },
-  { path: '/mobile/contact', element: <MobileContact /> },
-  { path: '/mobile/resume', element: <MobileResume /> },
+  { path: '/', element: <DesktopProject /> },
+  { path: '/about', element: <DesktopAbout /> },
+  { path: '/contact', element: <DesktopContact /> },
+  { path: '/resume', element: <DesktopResume /> },
+  { path: '/m/', element: <MobileProject /> },
+  { path: '/m/about', element: <MobileAbout /> },
+  { path: '/m/contact', element: <MobileContact /> },
+  { path: '/m/resume', element: <MobileResume /> },
   { path: '/error', element: <ErrorPage /> },
   { path: '*', element: <ErrorPage /> }
 ])
