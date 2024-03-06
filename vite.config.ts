@@ -6,6 +6,7 @@ export default defineConfig({
   plugins: [react()],
   resolve: {
     alias: {
+      '@components': '/src/components',
       '@desktopComponents': '/src/components/desktop',
       '@mobileComponents': '/src/components/mobile',
       '@assets': '/src/assets',

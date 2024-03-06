@@ -31,6 +31,11 @@ export const theme = extendTheme({
   // },
   semanticTokens: {
     colors: {
+      success: {
+        default: 'green.400',
+        _dark: 'blue.400',
+        _light: 'green.400'
+      },
       error: 'red.500',
       text: {
         default: 'gray.900',
@@ -56,8 +61,8 @@ export const theme = extendTheme({
         default: 'gray.300',
         _dark: 'yellow.300',
         _light: 'gray.300'
-      }
-    }
+      },
+    },
   },
 })
 
