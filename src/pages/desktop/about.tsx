@@ -4,7 +4,7 @@ import NavigationBar from "@components/desktop/navigation"
 const DesktopAbout = () => {
   return (
     <Container maxW='container.xl'>
-      <Box className='animate__animated animate__fadeInUp'>
+      <Box>
         <h1>DesktopAbout</h1>
       </Box>
       <NavigationBar />

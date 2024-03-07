@@ -37,8 +37,8 @@ const NavigationBar = () => {
           color: 'themeModeBth_hover'
         }} onClick={toggleColorMode}>
         {colorMode === 'light'
-          ? <MoonIcon className='animate__animated animate__rotateIn' boxSize='5' />
-          : <SunIcon className='animate__animated animate__rotateIn' boxSize='5' />}
+          ? <MoonIcon boxSize='5' />
+          : <SunIcon boxSize='5' />}
       </Center>
     </Box>
   )
