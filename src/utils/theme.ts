@@ -13,7 +13,7 @@ export const theme = extendTheme({
         minWidth: '1440px',
         fontSize: 'md',
         color: props.colorMode === 'dark' ? 'gray.50' : 'gray.900',
-        background: props.colorMode === 'dark' ? 'gray.900' : 'gray.50'
+        background: props.colorMode === 'dark' ? 'gray.900' : 'gray.50',
       }
     })
   },
@@ -22,7 +22,7 @@ export const theme = extendTheme({
       sizes: {
         md: defineStyle({
           maxW: '1xl',
-          padding: '0px 40px 0px 40px'
+          padding: '0px 60px 0px 60px'
         }),
         sm: defineStyle({
           maxW: 'sm'
