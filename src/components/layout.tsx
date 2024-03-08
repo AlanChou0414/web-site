@@ -20,7 +20,7 @@ export const Loader = ({ count, setCount, end = 100, delay = 30, size }: {
   }, [count, delay, end, setCount]);
 
   return (
-    <Center className={`animate__animated ${count === end ? 'animate__fadeOut' : 'animate__fadeIn'}`}>
+    <Center>
       <CircularProgress size={size} value={count} color='success' >
         <CircularProgressLabel>{count}%</CircularProgressLabel>
       </CircularProgress>
